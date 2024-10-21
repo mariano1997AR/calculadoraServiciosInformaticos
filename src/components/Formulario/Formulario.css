@@ -1,0 +1,7 @@
+#btn-calcular{
+    background-image: linear-gradient( 107.7deg,  rgba(235,230,44,0.55) 8.4%, rgba(252,152,15,1) 90.3% );
+    transition: all 1s;
+}
+#btn-calcular:hover{
+    background-image: radial-gradient( circle 918px at 13.1% 25.5%,  rgba(249,107,107,1) 0%, rgba(247,231,172,1) 48.9%, rgba(173,247,172,1) 90% );
+}
