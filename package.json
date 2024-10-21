@@ -9,11 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "eject":"react-scripts eject",
 
-    
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build"
+
+    "predeploy":"vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
